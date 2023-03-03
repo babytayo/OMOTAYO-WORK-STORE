@@ -1,0 +1,259 @@
+ * {
+     box-sizing: border-box;
+     /* border: 4px solid orange; */
+ }
+
+ body {
+
+     background: #d6d6c2;
+     display: block;
+     background-color: #000000;
+     margin: 0px auto;
+     padding: 0px 3em;
+     text-align: center;
+ }
+
+ @media screen and (min-width: 375px) and (max-width: 768px) {
+     body {
+         padding: 0px 0.5em;
+     }
+ }
+
+ div {
+     display: block;
+ }
+
+ /* first header section */
+ div#header {
+     width: 0px auto;
+     justify-content: space-between;
+     padding: 0 2em 0 0;
+     background-color: white;
+     display: flex;
+     font-size: 20px;
+ }
+
+ @media screen and (min-width: 375px) and (max-width: 768px) {
+     div#header {
+         width: 0px auto;
+         font-size: 5px;
+     }
+ }
+
+
+ /* navigation section */
+ .navigation {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ @media screen and (min-width: 375px) and (max-width: 768px) {
+     .navigation {
+         flex-direction: column;
+     }
+ }
+
+ .nav-botton {
+     font-size: 20px;
+     width: 5em;
+     background: white;
+     font-family: sans-serif;
+     border: 1px solid black;
+     border-radius: 20px;
+ }
+
+ @media screen and (min-width: 375px) and (max-width: 768px) {
+     .nav-button {
+         border: none;
+         color: #ffffff;
+     }
+ }
+
+ .nav-botton:hover {
+     background-color: #d6d6c2;
+ }
+
+
+
+ /* Section for second header */
+
+ div.second-header {
+     justify-content: space-between;
+     display: flex;
+     border-top: 2px solid #fff;
+ }
+
+ #second-rabbit {
+     width: 0px auto;
+     background-color: white;
+     display: flex;
+ }
+
+ @media screen and (min-width: 375px) and (max-width: 768px) {
+     #second-rabbit {
+         height: 100px;
+         width: 50px;
+     }
+ }
+
+ .you-welcome {
+     display: block;
+     font-size: 1.5em;
+     font-weight: bold;
+ }
+
+
+ @media screen and (min-width: 375px) and (max-width: 768px) {
+     .you-welcome {
+         font-size: 15px;
+     }
+ }
+
+ /* Work store section */
+ div.omotayo-web-store {
+
+     display: block;
+     font-size: 1.5em;
+     color: black;
+     font-weight: bold;
+ }
+
+ @media screen and (min-width: 375px) and (max-width: 768px) {
+     div.omotayo-web-store {
+         font-size: 15px;
+     }
+ }
+
+
+ p {
+     display: block;
+     margin-block-start: 1em;
+     margin-block-end: 1em;
+     margin-inline-start: 0px;
+     margin-inline-end: 0px;
+ }
+
+ .body-parent {
+     width: 0 auto;
+     display: flex;
+ }
+
+ @media screen and (min-width: 375px) and (max-width: 768px) {
+     .body-parent {
+         flex-direction: column;
+
+     }
+ }
+
+ .buttons {
+     display: flex;
+     border-top: 5px solid white;
+     border-left: 5px solid white;
+ }
+
+ @media screen and (min-width: 375px) and (max-width: 768px) {
+     .buttons {
+         width: auto;
+         height: auto;
+     }
+ }
+
+ .left-button {
+     background-color: white;
+     height: 70px;
+     width: 25em;
+     border: 2px solid black;
+     border-top-right-radius: 30px;
+     border-bottom-right-radius: 30px;
+     text-align: center;
+ }
+
+ .left-button:hover {
+     background-color: #e0e0d1;
+ }
+
+ @media screen and (min-width: 375px) and (max-width: 768px) {
+     .left-button {
+         height: 35px;
+         width: 12.5em;
+     }
+ }
+
+ .right-button {
+     background-color: white;
+     height: 70px;
+     width: 25em;
+     border: 2px solid black;
+     border-top-left-radius: 30px;
+     border-bottom-left-radius: 30px;
+     text-align: center;
+ }
+
+ .right-button:hover {
+     background-color: #e0e0d1;
+ }
+
+ @media screen and (min-width: 375px) and (max-width: 768px) {
+     .right-button {
+         height: 35px;
+         width: 12.5em;
+     }
+ }
+
+ .buttonheading {
+     color: white;
+     font-size: 1.5em;
+ }
+
+ @media screen and (min-width: 375px) and (max-width: 768px) {
+     .right-button {
+         font-size: 15px;
+     }
+ }
+
+ /* Quote Section */
+ .child-two {
+     width: auto;
+     border: 10px solid white;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 40px;
+     border-radius: 30px;
+     color: white;
+
+ }
+
+ @media screen and (min-width: 375px) and (max-width: 768px) {
+     .child-two {
+         width: auto;
+         border: 5px solid white;
+         font-size: 30px;
+         border-radius: 25px;
+         margin: 4px auto;
+     }
+ }
+
+
+ .row {
+     width: 0px auto;
+     background-color: white;
+     display: flex;
+     margin-top: 2px;
+     border-radius: 30px;
+ }
+
+ @media screen and (min-width: 375px) and (max-width: 768px) {
+     .row {
+         height: 50px;
+         width: 0px auto;
+     }
+ }
+
+ /* footer section */
+ .footer {
+     height: 100px;
+     width: 0px auto;
+     background-color: white;
+     margin: 2px;
+     display: block;
+
+ }
